@@ -5,14 +5,6 @@
 //  Created by Daniel Nunez on 06-10-25.
 //
 
-
-//
-//  RegisterViewModelTests.swift
-//  MyEconomicIndicatorsTests
-//
-//  Created by Daniel Nunez on 06-10-25.
-//
-
 import XCTest
 @testable import MyEconomicIndicators
 
