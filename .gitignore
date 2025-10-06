@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+
+# Xcode user data
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+*.xcuserdatad/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# Derived Data
+DerivedData/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Logs & Temp
+*.log
+*.orig
+*.rej
+*.tmp
+*.swp
+
+# Coverage
+*.xccovreport
+*.xccovarchive
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Configs
+# ✅ Debug.xcconfig se sube (con API_KEY de prueba)
+# ❌ Release.xcconfig NO se sube
+Config/Release.xcconfig
+
+# Env / secrets adicionales
+*.env
+Secrets.plist

@@ -29,9 +29,22 @@
 		33337C0E2E92A2FB00094B10 /* MyEconomicIndicatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEconomicIndicatorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		33BC09E92E945FB000786011 /* Exceptions for "MyEconomicIndicators" folder in "MyEconomicIndicators" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 33337BED2E92A2F900094B10 /* MyEconomicIndicators */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		33337BF02E92A2F900094B10 /* MyEconomicIndicators */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				33BC09E92E945FB000786011 /* Exceptions for "MyEconomicIndicators" folder in "MyEconomicIndicators" target */,
+			);
 			path = MyEconomicIndicators;
 			sourceTree = "<group>";
 		};
@@ -388,10 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MyEconomicIndicators/MyEconomicIndicators.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MyEconomicIndicators/Resources/MyEconomicIndicators.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyEconomicIndicators/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyEconomicIndicators/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = Y4H3J5X429;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -414,7 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakha.MyEconomicIndicators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
@@ -427,10 +440,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MyEconomicIndicators/MyEconomicIndicators.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MyEconomicIndicators/Resources/MyEconomicIndicators.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyEconomicIndicators/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyEconomicIndicators/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = Y4H3J5X429;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -453,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakha.MyEconomicIndicators;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
