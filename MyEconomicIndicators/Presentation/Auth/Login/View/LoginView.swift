@@ -39,11 +39,21 @@ struct LoginView: View {
                         .padding()
                         .background(Color(.secondarySystemBackground))
                         .cornerRadius(8)
+                        .onChange(of: vm.password) { _ in
+                            if case .failure = vm.state {
+                                vm.state = .idle
+                            }
+                        }
 
                     PasswordFieldView(password: $vm.password)
                         .padding()
                         .background(Color(.secondarySystemBackground))
                         .cornerRadius(8)
+                        .onChange(of: vm.email) { _ in
+                            if case .failure = vm.state {
+                                vm.state = .idle
+                            }
+                        }
 
                     contentForState()
                     

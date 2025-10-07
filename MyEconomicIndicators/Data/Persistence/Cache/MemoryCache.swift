@@ -12,7 +12,7 @@ final class MemoryCache<Key: Hashable, Value> {
     private var cache: [Key: (expiresAt: Date, value: Value)] = [:]
     private let duration: TimeInterval
 
-    init(duration: TimeInterval = 6000) { // default = 10 minutes
+    init(duration: TimeInterval = 6000) {
         self.duration = duration
     }
 
